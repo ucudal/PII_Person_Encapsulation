@@ -7,6 +7,22 @@ width="150"/>
 
 # Clase `Person` encapsulada
 
+## Objetivo
+
+> [!NOTE]
+>
+> Crea tu propio repositorio a partir de esta plantilla y clona ese repositorio
+> en tu equipo.
+
+<!-- Intentionally left blank -->
+
+> [!IMPORTANT]
+>
+> Para compilar el código en Visual Studio Code ejecuten el comando `Run Build
+> Task...` del menú `Terminal` y elijan `dotnet: build`.
+
+<!-- Intentionally left blank -->
+
 Agrega la clase `Person` con las responsabilidades de conocer el nombre `Name` y
 la cédula `Id` de forma que sólo acepte nombres y cédulas válidas:
 
