@@ -29,9 +29,17 @@ la cédula `Id` de forma que sólo acepte nombres y cédulas válidas:
 - El nombre es válido si no está en blanco.
 - La cédula es válida si es correcto el dígito verificador.
 
-Usen el código provisto en el adjunto como punto de partida. El código incluye
-líneas que crean personas con información válida y el código para verificar si
-una cédula es válida calculando el dígito verificador.
+Usen el código provisto en el adjunto como punto de partida. La clase
+[`IdUtils`](./src/Library/IdUtils.cs) tiene un método `bool IdIsValid(string)`
+que verifica si una cédula es válida. El programa en el método `void Main()` de
+la clase [`Program`](./src/Program/Program.cs) incluye la creación de personas
+con nombre y cédulas válidos y la modificación de esa información con valores
+válidos e inválidos.
+
+> [!NOTE]
+>
+> El código en el método `Main` de `Program` está comentado. Quita los
+> comentarios para probar tu programa.
 
 No incluye el código de la clase Person, que deberán programar ustedes a partir
 del [ejercicio](https://github.com/ucudal/PII_Identificar_partes_de_objeto) de
